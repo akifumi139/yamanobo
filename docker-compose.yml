@@ -22,7 +22,8 @@ services:
       - 6006:6006
     volumes:
       - ./storybook:/usr/src/app
-    command: sh -c "npm install --legacy-peer-deps && npm run storybook"
+    # command: sh -c "npm install --legacy-peer-deps && npm run storybook"
+    # command: sh -c "npm run storybook"
     stdin_open: true
     tty: true
     environment:
