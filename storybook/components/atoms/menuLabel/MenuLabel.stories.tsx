@@ -1,5 +1,4 @@
-import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { ComponentMeta } from '@storybook/react';
 
 import { MenuLabel } from './MenuLabel';
 
@@ -7,9 +6,6 @@ export default {
     title: 'Example/Atom/MenuLabel',
     component: MenuLabel,
 } as ComponentMeta<typeof MenuLabel>;
-
-const Template: ComponentStory<typeof MenuLabel> = (arg) => <MenuLabel {...arg} />
-
 
 export const Selected = {
     args: {
