@@ -1,3 +1,3 @@
 export interface AddProjectButtonProps {
-    hidden: boolean;
+    hidden?: boolean;
 }
