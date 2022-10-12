@@ -1,0 +1,7 @@
+.card-shape {
+    width: 326px;
+    height: 280px;
+    background-color: #fdfffe;
+    border-radius: 16px 26px 2px 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
