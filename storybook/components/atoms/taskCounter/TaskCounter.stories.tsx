@@ -12,7 +12,7 @@ export default {
 
 export const Basic = {
     args: {
-        TotalTask: '10',
-        RemainTask: '8',
+        totalTask: '10',
+        remainTask: '8',
     }
 }
