@@ -1,7 +1,12 @@
+.card-header {
+    position: relative;
+}
+
 .card-header-shape-title {
-    margin-top: -124px;
+    position: absolute;
 }
 
 .card-header-shape-task {
-    margin-left: 24px;
+    position: absolute;
+    left: 20px;
 }

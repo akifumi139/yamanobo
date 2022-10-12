@@ -17,7 +17,7 @@ export const CardHeader = ({
     remainTask = '0',
 }: CardHeaderProps) => {
     return (
-        <div>
+        <div className='card-header'>
             <div className='card-header-shape-task'>
                 <TaskCounter totalTask={totalTask} remainTask={remainTask}></TaskCounter>
             </div>
