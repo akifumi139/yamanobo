@@ -2,13 +2,13 @@ import React from "react";
 import './taskCounter.css';
 
 interface TaskCounter {
-    TotalTask: String,
-    RemainTask: String,
+    totalTask: String,
+    remainTask: String,
 };
 
 export const TaskCounter = ({
-    TotalTask,
-    RemainTask
+    totalTask,
+    remainTask
 }: TaskCounter) => {
     return (
         <div>
@@ -16,8 +16,8 @@ export const TaskCounter = ({
             <div className="task-infomation">
                 <label>残りタスク</label>
                 <div>
-                    <span className="remain-task">{RemainTask}</span>
-                    <span className="total-task">({TotalTask})</span>
+                    <span className="remain-task">{remainTask}</span>
+                    <span className="total-task">({totalTask})</span>
                 </div>
             </div>
         </div>

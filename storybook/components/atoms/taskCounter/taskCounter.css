@@ -1,5 +1,5 @@
 .task-infomation {
-    margin-top: -90px;
+    margin-top: -80px;
     margin-left: 8px;
 }
 
@@ -8,7 +8,8 @@
 }
 
 .task-infomation>div {
-    margin-left: 16px;
+    margin-top: -8px;
+    margin-left: 15px;
 }
 
 .remain-task {
@@ -18,5 +19,5 @@
 
 .total-task {
     font-size: 20px;
-    margin-left: 8px;
+    margin-left: 6px;
 }

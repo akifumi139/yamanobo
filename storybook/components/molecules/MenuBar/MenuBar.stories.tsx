@@ -3,7 +3,7 @@ import { ComponentMeta } from '@storybook/react';
 import { MenuBar } from './MenuBar';
 
 export default {
-    title: 'Example/Module/Menu',
+    title: 'Example/Molecule/Menu',
     component: MenuBar,
     argTypes: {
         selected: {
