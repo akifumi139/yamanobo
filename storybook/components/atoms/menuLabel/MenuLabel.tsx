@@ -1,7 +1,11 @@
 import React from 'react';
 import './menuLabel.css';
 
-import { MenuLabelProps } from './types/MenuLabel.types';
+interface MenuLabelProps {
+    label: string;
+    isSelected: boolean;
+    onClick?: () => void;
+}
 
 export const MenuLabel = ({
     label,

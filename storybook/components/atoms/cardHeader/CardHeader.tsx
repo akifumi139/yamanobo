@@ -1,7 +1,10 @@
 import React from 'react';
 import './cardHeader.css';
 
-import { CardHeaderProps } from './types/CardHeader.types';
+interface CardHeaderProps {
+    title?: string,
+    deadline?: Date,
+}
 
 export const CardHeader = ({
     title = '新しいプロジェクト',

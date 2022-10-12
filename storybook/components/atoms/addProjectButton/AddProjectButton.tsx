@@ -1,8 +1,9 @@
 import React from "react";
 import './addProjectButton.css';
 
-import { AddProjectButtonProps } from "./types/AddProjectButton";
-
+interface AddProjectButtonProps {
+    hidden?: boolean;
+}
 export const AddProjectButton = ({
     hidden = false,
 }: AddProjectButtonProps) => {

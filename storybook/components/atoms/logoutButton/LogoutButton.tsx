@@ -1,7 +1,10 @@
 import React from 'react';
 import './logoutButton.css';
 
-import { ButtonProps } from './types/LogoutButton.types';
+interface ButtonProps {
+  label: string;
+  onClick?: () => void;
+}
 
 export const LogoutButton = ({
   label,
