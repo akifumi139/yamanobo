@@ -1,12 +1,12 @@
 
 import { ComponentMeta } from '@storybook/react';
 
-import { CardHeader } from './CardHeader';
+import { CardTitle } from './CardTitle';
 
 export default {
-    title: 'Example/Atom/CardHeader',
-    component: CardHeader,
-} as ComponentMeta<typeof CardHeader>;
+    title: 'Example/Atom/CardTitle',
+    component: CardTitle,
+} as ComponentMeta<typeof CardTitle>;
 
 export const Basic = {
     args: {

@@ -1,20 +1,20 @@
 import React from 'react';
-import './cardHeader.css';
+import './cardTitle.css';
 
-interface CardHeaderProps {
+interface CardTitleProps {
     title?: string,
     deadline?: Date,
 }
 
-export const CardHeader = ({
+export const CardTitle = ({
     title = '新しいプロジェクト',
     deadline
-}: CardHeaderProps) => {
+}: CardTitleProps) => {
     const datetime = FormatDateJa(deadline);
     const countdown = CalcCountdown(deadline);
     return (
         <div>
-            <img src='./assets/CardHeader.png' />
+            <img src='./assets/CardTitle.png' />
             <div className='card-header-info'>
                 <div className='card-header-title'>{title}</div>
                 <div className='card-header-deadline'>
