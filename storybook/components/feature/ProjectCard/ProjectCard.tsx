@@ -7,19 +7,21 @@ import { TaskView } from './parts/TaskView/TaskView';
 interface ProjectCardProps {
     title?: string,
     deadline?: Date,
-    totalTask: String,
-    remainTask: String,
+    task?: {
+        total: String,
+        remain: String,
+    }
 }
 
+
 export const ProjectCard = ({
-    title = 'ノードを',
-    deadline = new Date(),
-    totalTask = '0',
-    remainTask = '0',
+    title,
+    deadline,
+    task
 }: ProjectCardProps) => {
     return (
         <CardShape >
-            <TaskCounter />
+            <TaskCounter task={task} />
             <ProjectTitle title={title} deadline={deadline} />
             <TaskView />
         </CardShape >

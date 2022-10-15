@@ -1,20 +1,21 @@
 import React from "react";
 import { styles } from './TaskCounter.styles';
 interface TaskCounter {
-    totalTask?: String,
-    remainTask?: String,
+    task?: {
+        total: String,
+        remain: String,
+    }
 };
 
 export const TaskCounter = ({
-    totalTask = '10',
-    remainTask = '10'
+    task
 }: TaskCounter) => {
     const Task =
-        totalTask !== ''
+        task?.total !== null
             ?
             <div>
-                <span css={styles.remain}>{remainTask}</span>
-                <span css={styles.total}>({totalTask})</span>
+                <span css={styles.remain}>{task?.remain}</span>
+                <span css={styles.total}>({task?.total})</span>
             </div>
             : '';
     return (
