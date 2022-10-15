@@ -1,6 +1,6 @@
 
 import { styles } from "./HeaderMenu.styles";
-import { MenuLabel } from "./parts/MenuLabel";
+import { MenuLabel } from "./parts/MenuLabel/MenuLabel";
 
 export interface HeaderMenuProps {
     selected?: 'progress' | 'complete' | 'pause';
