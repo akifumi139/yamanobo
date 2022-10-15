@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
 
-const styles = {
+export const styles = {
     button: css({
         backgroundColor: '#89D68C',
         border: 'none',
@@ -18,5 +18,3 @@ const styles = {
         }
     }),
 };
-
-export { styles };

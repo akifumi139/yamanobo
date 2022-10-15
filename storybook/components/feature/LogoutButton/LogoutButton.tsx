@@ -1,5 +1,5 @@
 import React from 'react';
-import { styles } from './LogoutButton.style';
+import { styles } from './LogoutButton.styles';
 
 interface ButtonProps {
   label: string;
