@@ -1,3 +1,5 @@
+const react = require("@vitejs/plugin-react");
+
 module.exports = {
   "stories": [
     "../components/**/*.stories.@(js|jsx|ts|tsx)",
@@ -11,6 +13,13 @@ module.exports = {
   "framework": "@storybook/react",
   "core": {
     "builder": "@storybook/builder-vite"
+  },
+  babel: async (options) => ({
+    ...options,
+    presets: [...options.presets, "@emotion/babel-preset-css-prop"],
+  }),
+  "features": {
+    "storyStoreV7": true
   },
   async viteFinal(config) {
     config.plugins = config.plugins.filter(
@@ -31,7 +40,4 @@ module.exports = {
     console.log(config.plugins);
     return config;
   },
-  "features": {
-    "storyStoreV7": true
-  }
 }
