@@ -1,7 +1,7 @@
 import { css } from "@emotion/react";
 
 export const styles = {
-    shape: ({
+    shape: css({
         width: 'fit-content',
         display: 'grid',
         gridTemplateColumns: '50px auto',
