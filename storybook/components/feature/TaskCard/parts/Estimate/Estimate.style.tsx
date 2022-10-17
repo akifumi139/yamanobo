@@ -12,11 +12,12 @@ export const styles = {
             marginLeft: '26px',
         })
     }),
+
     finished: css({
-        backgroundColor: '#838383',
+        backgroundColor: '#A5D6A7',
     }),
 
     unfinished: css({
-        backgroundColor: '#A5D6A7',
+        backgroundColor: '#838383',
     }),
 }
