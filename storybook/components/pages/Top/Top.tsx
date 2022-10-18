@@ -1,8 +1,8 @@
 import React from "react";
-import { AddButton } from "../../feature/AddButton/AddButton";
-import { HeaderMenu } from "../../feature/HeaderMenu/HeaderMenu";
-import { LogoutButton } from "../../feature/LogoutButton/LogoutButton";
-import { ProjectCard } from "../../feature/ProjectCard/ProjectCard";
+import { AddButton } from "../../features/AddButton/AddButton";
+import { HeaderMenu } from "../../features/HeaderMenu/HeaderMenu";
+import { LogoutButton } from "../../features/LogoutButton/LogoutButton";
+import { ProjectCard } from "../../features/ProjectCard/ProjectCard";
 
 export const Top = () => {
     return (
