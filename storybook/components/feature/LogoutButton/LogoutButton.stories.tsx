@@ -7,7 +7,4 @@ export default {
 } as ComponentMeta<typeof LogoutButton>;
 
 export const Basic = {
-    args: {
-        label: 'ログアウト'
-    }
 }
