@@ -18,6 +18,6 @@ export const styles = {
     }),
 
     unfinished: css({
-        backgroundColor: '#838383',
+        backgroundColor: '#9E9E9E',
     }),
 }
