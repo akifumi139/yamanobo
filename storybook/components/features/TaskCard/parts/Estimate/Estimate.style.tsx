@@ -13,11 +13,11 @@ export const styles = {
         })
     }),
 
-    finished: css({
+    unfinished: css({
         backgroundColor: '#A5D6A7',
     }),
 
-    unfinished: css({
+    finished: css({
         backgroundColor: '#9E9E9E',
     }),
 }

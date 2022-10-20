@@ -11,7 +11,7 @@ export const Grip = ({
     const mode = isFinished ? styles.finished : styles.unfinished;
     return (
         <div css={[styles.bar, mode]}>
-            <div ></div>
+            <div></div>
             <div></div>
             <div></div>
         </div>
